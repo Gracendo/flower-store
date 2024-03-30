@@ -1,0 +1,105 @@
+*{
+  font-family: verdana,'Oranienbaum',sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+:root{
+  --maincolor:lightpink;
+  --othermain:rgba(123, 131, 247, 0.852);
+}
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+header{
+  /* position: fixed; */
+  top: 0;left:0;right:0;
+  background: white;
+  padding:2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+
+}
+header .logo{
+  font-size: 3rem;
+  font-weight: bolder;
+  color:var(--maincolor);
+
+
+}
+header .navbar a{
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  color: #333;
+  
+}
+header .navbar a:hover,header .icons a:hover{
+  color: var(--maincolor);
+}
+header .icons a{
+  font-size: 3rem;
+  color: #333;
+  margin-left: 1.5rem;
+}
+.container{
+  width: 100%;
+}
+/* home section */
+section{
+  padding: 2rem 9%;
+  
+}
+.home{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: url("/assets/images/hero6.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.home .content h3{
+  font-size: 6rem;
+  color: #333;
+}
+.home .content span{
+  font-size: 3.5rem;
+  color:var(--maincolor);
+  padding: 1rem 0;
+  line-height: 1.5;
+
+}
+.home .content p{
+  font-size: 2rem;
+  color:#999;
+  padding: 1rem 0;
+  line-height: 1.5;
+  max-width: 500px;
+  
+}
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background:var(--maincolor);
+  color: #fff;
+  padding: .9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.btn:hover{
+  background: #fff;
+  color: var(--maincolor);
+}
+

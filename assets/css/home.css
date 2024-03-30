@@ -1,0 +1,162 @@
+*{
+  font-family: 'Oranienbaum',sans-serif;
+}
+/* body{
+  height: 670px;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+/* } */ 
+/* navigation bar*/
+
+.navigation {
+display: flex;
+justify-content: space-between;
+/* background-color:rgba(240, 128, 128, 0.683) ; */
+padding: 20px;
+top: 0;
+align-items: center;
+height: 60px;
+color: lightcoral;
+
+}
+.navigation img{
+  width: 50px;
+  height: 50%;
+  border-radius: 35px;
+  border: 2px solid lightcoral;
+
+}
+.navigation h3{
+  cursor: default;
+  font-family:'Castoro Titling', sans-serif;
+}
+.subcontainer{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.subcontainer p{
+ font-weight: bolder;
+
+}
+#log{
+  border:none;
+ color:lightcoral;
+  transition: 0.15s;
+  background: transparent;
+   padding: 4px; 
+  
+}
+#log:hover{
+ background-color: lightcoral;
+ color: white;
+}
+
+/* search-container*/
+.search-container{
+  display: flex;
+  align-items: center;
+  border: 1px solid lightcoral;
+  border-radius: 25px;
+  padding: 15px 30px;
+  gap: 20px;
+  
+}
+.search-container input[type=text]{
+  border: none;
+  outline: none;
+  font-size: 12px;
+  width: 100%;
+}
+.search-container button{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:0.15s;
+  padding: auto;
+  background: transparent;
+  color: lightcoral;
+}
+.search-container button:hover{
+  background-color: lightcoral;
+  color: white;
+}
+/*body container*/
+.body-container{
+  display: flex;
+  gap: 100px;
+  width: 100%;
+ justify-content: space-between;
+ height: 90%;
+}
+.dashbaord{
+  position: absolute;
+  height: 60%;
+  width:80px;
+  overflow: hidden;
+  background-color:rgba(240, 128, 128, 0.909) ;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, O, 0.1);
+  
+}
+.dashbaord :hover{
+  width: 200px;
+  transition: all 0.5s ease;
+}
+.dashbaord ul{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+.dashbaord a{
+  text-decoration: none;
+}
+.dashbaord  ul li{
+  text-decoration: none;
+}
+ .dashbaord a{
+  position: relative;
+  color: white;
+  font-size: 14px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+  transition: 0.15s;
+}
+.dashbaord a:hover{
+ background-color : rgba(240, 128, 128, 0.674);
+  
+}
+.dashbaord .fas{
+  position:relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align:center;
+  
+}
+.nav-item{
+  position: relative;
+  top:12px;
+  margin-left:10px ;
+
+
+}
+#lo{
+  position: absolute;
+  bottom: 0;
+  
+}
+/* table*/
+.table{
+  background-color: lightcoral;
+  width: 50%;
+  height: 80%;
+  position: relative;
+}

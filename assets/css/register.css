@@ -1,0 +1,84 @@
+*{
+  font-family: 'Oranienbaum',sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+   
+}
+/* the container*/
+.container{
+  display: flex;
+  flex-direction: row;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+  width:600px;
+  height: 550px;
+  border-color: lightpink;
+  border-width: 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  
+}
+/*the image*/
+.sub_container_1 .img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+ 
+ 
+}
+/*the sub containers*/
+.sub_container_1{
+ 
+  flex:1;
+ 
+
+}
+.sub_container_2{
+  color:#333;
+   display: flex;
+   flex-direction: column;
+  border-top-right-radius: 3%;
+ align-items: center;
+ background-color: rgb(255, 255, 255);
+ flex:1;
+}
+.sub_container_2 input {
+  margin-top :10px;
+  
+}
+.sub_container_2 h2 {
+  font-family: sans-serif;
+}
+.sub_container_2 a{
+  text-decoration: none;
+}
+#log{
+  padding: 8px;
+  width: 14ch;
+  height: 4ch;
+  background-color:lightcoral;
+  border:1px solid white;
+  border-radius: 22px;
+  color:rgba(255, 255, 255, 0.785);
+  transition: 0.15s;
+  margin-top: 30px;
+}
+#log:hover{
+  border:1px solid lightcoral;
+  background-color:white;
+  color:lightcoral;
+}
+.entry{
+  border:1px solid lightcoral;
+  padding: 10px;
+  border-radius: 18px;
+  width:80%;
+}
+.form i{
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
